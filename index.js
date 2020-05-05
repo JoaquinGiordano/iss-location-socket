@@ -26,7 +26,7 @@ io.on('connection', socket => {
 					lat: Number(myJson.iss_position.latitude).toFixed(2),
 				})
 			})
-	}, 500)
+	}, 1000)
 })
 
 http.listen(port, () => {
